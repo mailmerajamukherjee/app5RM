@@ -1,5 +1,6 @@
 namespace sap.ui.riskmanagement;
 using { managed } from '@sap/cds/common';
+
   entity Risks : managed {
     key ID      : UUID  @(Core.Computed : true);
     title       : String(100);
@@ -9,6 +10,7 @@ using { managed } from '@sap/cds/common';
     impact      : Integer;
     criticality : Integer;
   }
+
   entity Mitigations : managed {
     key ID       : UUID  @(Core.Computed : true);
     description  : String;
