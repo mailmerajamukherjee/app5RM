@@ -1,4 +1,4 @@
-using RiskService from './risk-service';
+using RiskService from '../../risk-service';
 
 annotate RiskService.Risks with {
 	title       @title: 'Title';
