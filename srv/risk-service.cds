@@ -1,4 +1,5 @@
-using { sap.ui.riskmanagement as my } from './create-ui-fiori-elements/srv/risks-service-ui';
+using { sap.ui.riskmanagement as my } from '../db/schema';
+
 @path: 'service/risk'
 service RiskService {
   entity Risks as projection on my.Risks;
