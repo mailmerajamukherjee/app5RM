@@ -1,4 +1,4 @@
-using { sap.ui.riskmanagement as my } from '../tutorial/templates/create-cap-application/db/schema';
+using { sap.ui.riskmanagement as my } from './create-ui-fiori-elements/srv/risks-service-ui';
 
 @path: 'service/risk'
 service RiskService {
