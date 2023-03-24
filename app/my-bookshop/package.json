@@ -35,8 +35,13 @@
         },
         "approuter": {
           "kind": "cloudfoundry"  
-
+        },
+        "cds": {
+          "features": {
+            "fiori_preview": true
+          }
         }
+        
       }
     }
   }
