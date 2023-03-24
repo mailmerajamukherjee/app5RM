@@ -34,7 +34,8 @@
           "kind": "hana-cloud"
         },
         "approuter": {
-          "kind": "cloudfoundry"
+          "kind": "cloudfoundry"  
+
         }
       }
     }
